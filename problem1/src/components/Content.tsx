@@ -1,5 +1,6 @@
-export default function Contend() {
+export default function Content({message}) {
     return<>
-    <p>안녕하세요 React!</p>
+    <p>{message}</p>
+    
     </>
 }

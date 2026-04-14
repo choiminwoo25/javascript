@@ -1,3 +1,6 @@
 export default function Title() {
-    <h1>학생 정보</h1>
+return(
+        <h1>학생 정보</h1>  
+    )
+    
 }
