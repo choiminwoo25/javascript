@@ -13,7 +13,8 @@
 //   return (
 //     <div
 //       onClickCapture={handleCapture}
-//       style={{ padding: "50px", backgroundColor: "#f0f0f0" }}
+//       style={{ padding: "50px", 
+//         backgroundColor: "#f0f0f0" }}
 //     >
 //       Parent
 //       <button onClick={handleBubble} style={{ marginTop: "20px" }}>
@@ -22,7 +23,6 @@
 //     </div>
 //   );
 // }
-
 
 //(Ex 2) 버블링(Bubbling) : 이벤트가 자식 요소에서 
 //시작해  부모 요소로 내려가는 방식.
@@ -52,7 +52,6 @@
 //   );
 // }
 
-
 //(Ex 3) 버블링을 차단하기 위해 stopPropagation()을 호출해
 //이벤트가 부모 요소로 전달되지 않도록 하는 코드
 
@@ -77,7 +76,6 @@
 //     </div>
 //   );
 // }
-
 
 //(Ex 4-1) 캡처링(Capturing)을 차단하기 위해 
 //이벤트 속성에 Capture 수식어를 사용하지 않음.
@@ -104,7 +102,6 @@
 //   );
 // }
 
-
 //(Ex 4-2) 캡처링(Capturing)을 차단하기 위해 
 //버튼 클릭 시 Child → Parent(버블링)으로 
 //실행되므로 Parent만 나오게 하려면 
@@ -129,7 +126,6 @@
 //     </div>
 //   );
 // }
-
 
 //(Ex 4-3) “캡처링 차단”이라는 조건을 정확히 반영하여
 //캡처링을 사용하면서 Parent만 실행하는 코드
@@ -157,7 +153,6 @@
 //     </div>
 //   );
 // }
-
 
 //(Ex 5)
 //onSubmit 화살표 함수는 폼이 제출될 때 
