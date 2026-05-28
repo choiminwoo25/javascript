@@ -1,11 +1,13 @@
 import Button from "./components/Button";
-import Contend from "./components/Content";
+import Content from "./components/Content";
 import Header from "./components/Header";
 
 export default function MyApp() {
-  return<>
-   <Header/>
-   <Contend/>
-   <Button onFive={() => alert("버튼 클릭됨")}/>
+  return(
+  <>
+  <Header/>
+    <Content message={"안녕하세요 React!"}/>
+   <Button onClick={() => alert("버튼 클릭됨")}/>
   </>
+  )
 }

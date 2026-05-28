@@ -1,8 +1,8 @@
 export default function Button(
-    { onFive }: { onFive: () => void }) {
+    { onClick }: { onClick: () => void }) {
     return(
         
-         <button onClick={onFive}>클릭하세요</button>
+         <button onClick={onClick}>클릭하세요</button>
     );
    
     
