@@ -9,9 +9,9 @@ export default function App() {
   // 방식을 더 권장함.
   //이 방식은 상태 값을 안전하게 참조할 수 있어 
   //예기치 않은 문제를 방지 가능함.
-  const increment = () => setCount(count => count + 1);//콜백 함수 형태
+  const increment = () => setCount(c => c + 1);//콜백 함수 형태
 
-  const decrement = () => setCount(count - 1);
+  const decrement = () => setCount(count => count - 1);
   const reset = () => setCount(0);
   return (
     <>
